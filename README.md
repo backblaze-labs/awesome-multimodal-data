@@ -34,7 +34,9 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[DataComp](https://www.datacomp.ai)** – Benchmark and toolkit for building image-text datasets. DataComp-1B is the reference filtered training set. [Docs](https://github.com/mlfoundations/datacomp)
 - **[Conceptual Captions 12M](https://github.com/google-research-datasets/conceptual-12m)** – 12M image-text pairs from Google, harvested from alt-text with automated cleaning. Widely used as a CLIP baseline.
 - **[LAION-5B](https://laion.ai/blog/laion-5b/)** – 5.85B image-text pairs scraped from Common Crawl. Foundation dataset for Stable Diffusion and many open CLIP models. [Docs](https://huggingface.co/datasets/laion/laion2B-en)
+- **[OBELICS](https://huggingface.co/datasets/HuggingFaceM4/OBELICS)** – 141M interleaved image-text web documents, 353M images, 115B tokens, extracted from Common Crawl. Training data for IDEFICS. CC-BY-4.0. [Docs](https://github.com/huggingface/OBELICS)
 - **[PixelProse / Docmatix](https://huggingface.co/datasets/HuggingFaceM4/Docmatix)** – Large-scale document-image instruction dataset from HuggingFace. Useful for training multimodal document-QA models.
+- **[ReCap-DataComp-1B](https://huggingface.co/datasets/UCSC-VLAA/Recap-DataComp-1B)** – 1.3B DataComp-1B images recaptioned with LLaVA-1.5-LLaMA3-8B. Longer, more detailed captions improve CLIP and text-to-image training. ICML 2025. [Docs](https://github.com/UCSC-VLAA/Recap-DataComp-1B)
 
 ## Video Datasets
 
@@ -46,6 +48,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[HowTo100M](https://www.di.ens.fr/willow/research/howto100m/)** – 136M narrated instructional video clips from 1.22M YouTube videos. A staple for video-language pretraining. [Docs](https://github.com/antoine77340/howto100m)
 - **[InternVid](https://huggingface.co/datasets/OpenGVLab/InternVid)** – 7M videos (~234M clips) with rich captions. Part of the InternVideo foundation-model release. [Docs](https://github.com/OpenGVLab/InternVideo)
 - **[OpenVid-1M](https://huggingface.co/datasets/nkp37/OpenVid-1M)** – 1M curated text-video pairs with aesthetic/motion/consistency scores. Includes OpenVidHD-0.4M subset at 1080p. ICLR 2025. [Docs](https://github.com/NJU-PCALab/OpenVid-1M)
+- **[PE-Video](https://huggingface.co/datasets/facebook/PE-Video)** – Meta's 1M diverse short videos with text descriptions and 120K human-verified captions. Released with Perception Encoder (2025). CC BY NC 4.0. [Docs](https://github.com/facebookresearch/perception_models)
 
 ## Audio and Speech Datasets
 
@@ -87,6 +90,8 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[FiftyOne](https://voxel51.com/fiftyone)** – Open-source dataset curation and model-evaluation toolkit for CV. Rich UI for exploring image/video datasets. [Docs](https://docs.voxel51.com) | SDK: Python (pip install fiftyone)
 - **[Datatrove](https://github.com/huggingface/datatrove)** – HuggingFace's data-processing library for LLM pretraining. Parallel filters, deduplication, tokenization pipelines. SDK: Python (pip install datatrove)
 - **[fastdup](https://www.visual-layer.com)** – Unsupervised analysis of large visual datasets. Detects duplicates, outliers, mislabels, and leakage in minutes. [Docs](https://github.com/visual-layer/fastdup) | SDK: Python (pip install fastdup)
+- **[Cosmos-Curate](https://github.com/nvidia-cosmos/cosmos-curate)** – NVIDIA's distributed video curation pipeline for world foundation model training. Splits, annotates, filters, and deduplicates video at scale using Ray. Apache-2.0.
+- **[NeMo Curator](https://github.com/NVIDIA-NeMo/Curator)** – GPU-accelerated curation toolkit from NVIDIA. Handles text, image, video, and audio at scale using RAPIDS and Ray. Apache-2.0. [Docs](https://docs.nvidia.com/nemo-framework/user-guide/latest/datacuration/index.html) | SDK: Python (pip install nemo-curator)
 - **[SemHash](https://github.com/MinishLab/semhash)** – Lightweight multimodal library for semantic deduplication, outlier filtering, and representative sample selection across text, images, and audio. SDK: Python (pip install semhash)
 
 ## Embedding and Indexing Models

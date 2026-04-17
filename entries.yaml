@@ -44,6 +44,26 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: OBELICS
+  url: https://huggingface.co/datasets/HuggingFaceM4/OBELICS
+  docs_url: https://github.com/huggingface/OBELICS
+  description: 141M interleaved image-text web documents, 353M images, 115B tokens, extracted from Common Crawl. Training data for IDEFICS. CC-BY-4.0.
+  category: image-text-datasets
+  github: huggingface/OBELICS
+  license: CC-BY-4.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: ReCap-DataComp-1B
+  url: https://huggingface.co/datasets/UCSC-VLAA/Recap-DataComp-1B
+  docs_url: https://github.com/UCSC-VLAA/Recap-DataComp-1B
+  description: 1.3B DataComp-1B images recaptioned with LLaVA-1.5-LLaMA3-8B. Longer, more detailed captions improve CLIP and text-to-image training. ICML 2025.
+  category: image-text-datasets
+  github: UCSC-VLAA/Recap-DataComp-1B
+  license: CC-BY-4.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Video Datasets ----------------
 
 - name: Ego4D
@@ -95,6 +115,16 @@
   category: video-datasets
   github: NJU-PCALab/OpenVid-1M
   license: CC-BY-4.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: PE-Video
+  url: https://huggingface.co/datasets/facebook/PE-Video
+  docs_url: https://github.com/facebookresearch/perception_models
+  description: Meta's 1M diverse short videos with text descriptions and 120K human-verified captions. Released with Perception Encoder (2025). CC BY NC 4.0.
+  category: video-datasets
+  github: facebookresearch/perception_models
+  license: CC-BY-NC-4.0
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -324,6 +354,27 @@
   license: MIT
   sdks:
     - {language: Python (pip install semhash)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: NeMo Curator
+  url: https://github.com/NVIDIA-NeMo/Curator
+  docs_url: https://docs.nvidia.com/nemo-framework/user-guide/latest/datacuration/index.html
+  description: GPU-accelerated curation toolkit from NVIDIA. Handles text, image, video, and audio at scale using RAPIDS and Ray. Apache-2.0.
+  category: data-curation-and-labeling
+  github: NVIDIA-NeMo/Curator
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install nemo-curator)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Cosmos-Curate
+  url: https://github.com/nvidia-cosmos/cosmos-curate
+  description: NVIDIA's distributed video curation pipeline for world foundation model training. Splits, annotates, filters, and deduplicates video at scale using Ray. Apache-2.0.
+  category: data-curation-and-labeling
+  github: nvidia-cosmos/cosmos-curate
+  license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-18
 
