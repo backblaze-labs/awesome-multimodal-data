@@ -88,6 +88,16 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: OpenVid-1M
+  url: https://huggingface.co/datasets/nkp37/OpenVid-1M
+  docs_url: https://github.com/NJU-PCALab/OpenVid-1M
+  description: 1M curated text-video pairs with aesthetic/motion/consistency scores. Includes OpenVidHD-0.4M subset at 1080p. ICLR 2025.
+  category: video-datasets
+  github: NJU-PCALab/OpenVid-1M
+  license: CC-BY-4.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Audio and Speech Datasets ----------------
 
 - name: LibriSpeech
@@ -121,6 +131,15 @@
   category: audio-and-speech-datasets
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: WavCaps
+  url: https://huggingface.co/datasets/cvssp/WavCaps
+  docs_url: https://github.com/XinhaoMei/WavCaps
+  description: 400k weakly-labelled audio clips with ChatGPT-generated captions from FreeSound, BBC Sound Effects, and AudioSet. Academic use only.
+  category: audio-and-speech-datasets
+  github: XinhaoMei/WavCaps
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Document and Text Datasets ----------------
 
@@ -156,6 +175,16 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: DCLM-Baseline
+  url: https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0
+  docs_url: https://github.com/mlfoundations/dclm
+  description: 4T-token filtered web corpus from 240T-token Common Crawl pool. Trains 7B models to 64% MMLU at 2.6T tokens. NeurIPS 2024.
+  category: document-and-text-datasets
+  github: mlfoundations/dclm
+  license: CC-BY-4.0
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Data Loading and Streaming ----------------
 
@@ -287,6 +316,17 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: SemHash
+  url: https://github.com/MinishLab/semhash
+  description: Lightweight multimodal library for semantic deduplication, outlier filtering, and representative sample selection across text, images, and audio.
+  category: data-curation-and-labeling
+  github: MinishLab/semhash
+  license: MIT
+  sdks:
+    - {language: Python (pip install semhash)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Embedding and Indexing Models ----------------
 
 - name: OpenCLIP
@@ -350,6 +390,18 @@
     - {language: C++}
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: VLM2Vec
+  url: https://github.com/TIGER-AI-Lab/VLM2Vec
+  docs_url: https://tiger-ai-lab.github.io/VLM2Vec/
+  description: Framework for training VLMs as dense embedding models. Ships MMEB-V2 benchmark with 78 tasks across images, videos, and visual documents.
+  category: embedding-and-indexing-models
+  github: TIGER-AI-Lab/VLM2Vec
+  license: Apache-2.0
+  sdks:
+    - {language: Python}
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Templates and Example Projects ----------------
 

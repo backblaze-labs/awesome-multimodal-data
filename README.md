@@ -2,7 +2,7 @@
 
 A curated list of multimodal datasets and data tooling — image-text, video, audio, and document corpora, plus streaming, curation, labeling, and embedding libraries that operate on them.
 
-Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist). Backblaze B2 is the storage cloud for innovators building at the speed of AI. 
+Maintained by [Backblaze](https://www.backblaze.com).
 
 ### Related Lists
 
@@ -45,6 +45,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[Ego4D](https://ego4d-data.org)** – 3,670 hours of first-person video from 931 participants across 9 countries. Benchmarks for social, hands, memory, forecasting. [Docs](https://ego4d-data.org/docs/)
 - **[HowTo100M](https://www.di.ens.fr/willow/research/howto100m/)** – 136M narrated instructional video clips from 1.22M YouTube videos. A staple for video-language pretraining. [Docs](https://github.com/antoine77340/howto100m)
 - **[InternVid](https://huggingface.co/datasets/OpenGVLab/InternVid)** – 7M videos (~234M clips) with rich captions. Part of the InternVideo foundation-model release. [Docs](https://github.com/OpenGVLab/InternVideo)
+- **[OpenVid-1M](https://huggingface.co/datasets/nkp37/OpenVid-1M)** – 1M curated text-video pairs with aesthetic/motion/consistency scores. Includes OpenVidHD-0.4M subset at 1080p. ICLR 2025. [Docs](https://github.com/NJU-PCALab/OpenVid-1M)
 
 ## Audio and Speech Datasets
 
@@ -54,6 +55,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[AudioSet](https://research.google.com/audioset/)** – Google's 2M+ human-labelled 10-second sound clips across 632 classes. Standard corpus for sound-event classification.
 - **[Emilia](https://huggingface.co/datasets/amphion/Emilia-Dataset)** – 100k+ hours of multilingual, in-the-wild speech data from the Amphion team. Backbone for modern open TTS training. [Docs](https://github.com/open-mmlab/Amphion)
 - **[LibriSpeech](https://www.openslr.org/12)** – 1,000-hour English speech corpus derived from LibriVox. The long-running default ASR benchmark.
+- **[WavCaps](https://huggingface.co/datasets/cvssp/WavCaps)** – 400k weakly-labelled audio clips with ChatGPT-generated captions from FreeSound, BBC Sound Effects, and AudioSet. Academic use only. [Docs](https://github.com/XinhaoMei/WavCaps)
 
 ## Document and Text Datasets
 
@@ -61,6 +63,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 
 - **[Dolma](https://github.com/allenai/dolma)** – AI2's 3T-token open pretraining corpus with a transparent pipeline. Backbone for OLMo training.
 - **[Common Corpus](https://huggingface.co/blog/Pclanglais/common-corpus)** – 2T-token fully open text corpus from PleIAs. Public-domain and permissive text only — usable for commercial training. [Docs](https://huggingface.co/collections/PleIAs/common-corpus-65d46e3ea3980fdcd66a5613)
+- **[DCLM-Baseline](https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0)** – 4T-token filtered web corpus from 240T-token Common Crawl pool. Trains 7B models to 64% MMLU at 2.6T tokens. NeurIPS 2024. [Docs](https://github.com/mlfoundations/dclm)
 - **[FineWeb / FineWeb-Edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb)** – 15T high-quality English tokens filtered from 96 Common Crawl dumps. Edu variant is ~1.3T educational-content tokens. [Docs](https://huggingface.co/blog/fineweb)
 - **[The Stack v2](https://huggingface.co/datasets/bigcode/the-stack-v2)** – 3TB of permissively licensed source code across 600+ programming languages. Training data for StarCoder/StarCoder2. [Docs](https://huggingface.co/blog/bigcode-the-stack)
 
@@ -84,6 +87,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[FiftyOne](https://voxel51.com/fiftyone)** – Open-source dataset curation and model-evaluation toolkit for CV. Rich UI for exploring image/video datasets. [Docs](https://docs.voxel51.com) | SDK: Python (pip install fiftyone)
 - **[Datatrove](https://github.com/huggingface/datatrove)** – HuggingFace's data-processing library for LLM pretraining. Parallel filters, deduplication, tokenization pipelines. SDK: Python (pip install datatrove)
 - **[fastdup](https://www.visual-layer.com)** – Unsupervised analysis of large visual datasets. Detects duplicates, outliers, mislabels, and leakage in minutes. [Docs](https://github.com/visual-layer/fastdup) | SDK: Python (pip install fastdup)
+- **[SemHash](https://github.com/MinishLab/semhash)** – Lightweight multimodal library for semantic deduplication, outlier filtering, and representative sample selection across text, images, and audio. SDK: Python (pip install semhash)
 
 ## Embedding and Indexing Models
 
@@ -95,6 +99,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[BGE (BAAI General Embedding)](https://github.com/FlagOpen/FlagEmbedding)** – Family of multilingual text embeddings from BAAI. Top performers on MTEB; extended to visual and multimodal variants.
 - **[Nomic Embed](https://www.nomic.ai/embed)** – Open multimodal embedding family from Nomic. Nomic Embed Vision pairs with Nomic Embed Text for unified image/text search. [Docs](https://docs.nomic.ai)
 - **[SigLIP 2](https://huggingface.co/collections/google/siglip2-67b5dcef38c175486e240107)** – Google's sigmoid loss for contrastive image-text pretraining. SigLIP 2 adds multilingual and dense-caption training. [Docs](https://github.com/google-research/big_vision)
+- **[VLM2Vec](https://github.com/TIGER-AI-Lab/VLM2Vec)** – Framework for training VLMs as dense embedding models. Ships MMEB-V2 benchmark with 78 tasks across images, videos, and visual documents. [Docs](https://tiger-ai-lab.github.io/VLM2Vec/) | SDK: Python
 
 ## Templates and Example Projects
 
@@ -116,4 +121,4 @@ Released under [CC0 1.0 Universal](LICENSE). You may copy, modify, and redistrib
 
 ## About Backblaze B2
 
-[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.
+[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.
