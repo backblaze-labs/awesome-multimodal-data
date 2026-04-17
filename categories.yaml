@@ -1,0 +1,34 @@
+# Section order below controls the order in README.md.
+# Slugs are referenced from entries.yaml and must be kebab-case.
+
+- slug: image-text-datasets
+  name: Image-Text Datasets
+  description: Large-scale image-caption corpora for contrastive and generative training.
+
+- slug: video-datasets
+  name: Video Datasets
+  description: Public video datasets with captions, action labels, or instruction annotations.
+
+- slug: audio-and-speech-datasets
+  name: Audio and Speech Datasets
+  description: Public speech, music, and sound-event corpora for training and evaluation.
+
+- slug: document-and-text-datasets
+  name: Document and Text Datasets
+  description: Large-scale web, code, and document corpora used to pretrain multimodal models.
+
+- slug: data-loading-and-streaming
+  name: Data Loading and Streaming
+  description: Formats and libraries for streaming multimodal data from object storage into training jobs.
+
+- slug: data-curation-and-labeling
+  name: Data Curation and Labeling
+  description: Tools for deduplication, cleaning, filtering, and annotating multimodal datasets.
+
+- slug: embedding-and-indexing-models
+  name: Embedding and Indexing Models
+  description: Multimodal embedding models and frameworks for building searchable indices.
+
+- slug: templates-and-example-projects
+  name: Templates and Example Projects
+  description: Reference implementations, demos, and starter projects.
