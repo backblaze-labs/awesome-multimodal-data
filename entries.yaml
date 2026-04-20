@@ -64,6 +64,25 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Cambrian-10M
+  url: https://huggingface.co/datasets/nyu-visionx/Cambrian-10M
+  docs_url: https://cambrian-mllm.github.io/
+  description: 10M multimodal instruction-tuning samples from NYU VisionX. Combines VQA, OCR, knowledge-based, and GPT-generated data. Backbone for Cambrian-1 VLM training. Apache-2.0.
+  category: image-text-datasets
+  github: cambrian-mllm/cambrian
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Nemotron-VLM-Dataset-v2
+  url: https://huggingface.co/datasets/nvidia/Nemotron-VLM-Dataset-v2
+  docs_url: https://huggingface.co/blog/nvidia/nemotron-vlm-dataset-v2
+  description: NVIDIA's 8M-sample VLM training set spanning image QA, OCR (10 languages), video QA, and chain-of-thought reasoning. Used to train Nemotron Nano 2 VL. CC-BY-4.0.
+  category: image-text-datasets
+  license: CC-BY-4.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Video Datasets ----------------
 
 - name: Ego4D
@@ -171,6 +190,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: CapSpeech
+  url: https://huggingface.co/datasets/OpenSound/CapSpeech
+  docs_url: https://github.com/WangHelin1997/CapSpeech
+  description: 10M+ machine-annotated and 360k human-annotated audio-caption pairs for style-captioned TTS. Covers accent, emotion, sound effects, and agent speech tasks. CC-BY-NC-4.0.
+  category: audio-and-speech-datasets
+  github: WangHelin1997/CapSpeech
+  license: CC-BY-NC-4.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Document and Text Datasets ----------------
 
 - name: FineWeb / FineWeb-Edu
@@ -212,6 +241,15 @@
   description: 4T-token filtered web corpus from 240T-token Common Crawl pool. Trains 7B models to 64% MMLU at 2.6T tokens. NeurIPS 2024.
   category: document-and-text-datasets
   github: mlfoundations/dclm
+  license: CC-BY-4.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: BigDocs-7.5M
+  url: https://huggingface.co/datasets/ServiceNow/BigDocs-7.5M
+  docs_url: https://bigdocs.github.io/
+  description: 7.5M permissively licensed document image-text pairs from ServiceNow. Covers OCR, structured parsing, captioning, and QA across scientific papers, tables, and UI screenshots. ICLR 2025. CC-BY-4.0.
+  category: document-and-text-datasets
   license: CC-BY-4.0
   b2_integration: ""
   last_verified: 2026-04-18
@@ -451,6 +489,14 @@
   license: Apache-2.0
   sdks:
     - {language: Python}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: MMEB-train
+  url: https://huggingface.co/datasets/TIGER-Lab/MMEB-train
+  description: 2.1M training samples for the Massive Multimodal Embedding Benchmark. Covers visual QA, image retrieval, classification, and grounding across 20 datasets. Apache-2.0.
+  category: embedding-and-indexing-models
+  license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-18
 

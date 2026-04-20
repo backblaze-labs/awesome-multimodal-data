@@ -33,7 +33,9 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[COYO-700M](https://github.com/kakaobrain/coyo-dataset)** – 747M curated image-alt-text pairs from Kakao Brain. Alternative to LAION for pretraining multimodal models.
 - **[DataComp](https://www.datacomp.ai)** – Benchmark and toolkit for building image-text datasets. DataComp-1B is the reference filtered training set. [Docs](https://github.com/mlfoundations/datacomp)
 - **[Conceptual Captions 12M](https://github.com/google-research-datasets/conceptual-12m)** – 12M image-text pairs from Google, harvested from alt-text with automated cleaning. Widely used as a CLIP baseline.
+- **[Cambrian-10M](https://huggingface.co/datasets/nyu-visionx/Cambrian-10M)** – 10M multimodal instruction-tuning samples from NYU VisionX. Combines VQA, OCR, knowledge-based, and GPT-generated data. Backbone for Cambrian-1 VLM training. Apache-2.0. [Docs](https://cambrian-mllm.github.io/)
 - **[LAION-5B](https://laion.ai/blog/laion-5b/)** – 5.85B image-text pairs scraped from Common Crawl. Foundation dataset for Stable Diffusion and many open CLIP models. [Docs](https://huggingface.co/datasets/laion/laion2B-en)
+- **[Nemotron-VLM-Dataset-v2](https://huggingface.co/datasets/nvidia/Nemotron-VLM-Dataset-v2)** – NVIDIA's 8M-sample VLM training set spanning image QA, OCR (10 languages), video QA, and chain-of-thought reasoning. Used to train Nemotron Nano 2 VL. CC-BY-4.0. [Docs](https://huggingface.co/blog/nvidia/nemotron-vlm-dataset-v2)
 - **[OBELICS](https://huggingface.co/datasets/HuggingFaceM4/OBELICS)** – 141M interleaved image-text web documents, 353M images, 115B tokens, extracted from Common Crawl. Training data for IDEFICS. CC-BY-4.0. [Docs](https://github.com/huggingface/OBELICS)
 - **[PixelProse / Docmatix](https://huggingface.co/datasets/HuggingFaceM4/Docmatix)** – Large-scale document-image instruction dataset from HuggingFace. Useful for training multimodal document-QA models.
 - **[ReCap-DataComp-1B](https://huggingface.co/datasets/UCSC-VLAA/Recap-DataComp-1B)** – 1.3B DataComp-1B images recaptioned with LLaVA-1.5-LLaMA3-8B. Longer, more detailed captions improve CLIP and text-to-image training. ICML 2025. [Docs](https://github.com/UCSC-VLAA/Recap-DataComp-1B)
@@ -56,6 +58,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 
 - **[Mozilla Common Voice](https://commonvoice.mozilla.org)** – Open speech corpus built from community contributions. 100+ languages and growing. [Docs](https://commonvoice.mozilla.org/en/datasets)
 - **[AudioSet](https://research.google.com/audioset/)** – Google's 2M+ human-labelled 10-second sound clips across 632 classes. Standard corpus for sound-event classification.
+- **[CapSpeech](https://huggingface.co/datasets/OpenSound/CapSpeech)** – 10M+ machine-annotated and 360k human-annotated audio-caption pairs for style-captioned TTS. Covers accent, emotion, sound effects, and agent speech tasks. CC-BY-NC-4.0. [Docs](https://github.com/WangHelin1997/CapSpeech)
 - **[Emilia](https://huggingface.co/datasets/amphion/Emilia-Dataset)** – 100k+ hours of multilingual, in-the-wild speech data from the Amphion team. Backbone for modern open TTS training. [Docs](https://github.com/open-mmlab/Amphion)
 - **[LibriSpeech](https://www.openslr.org/12)** – 1,000-hour English speech corpus derived from LibriVox. The long-running default ASR benchmark.
 - **[WavCaps](https://huggingface.co/datasets/cvssp/WavCaps)** – 400k weakly-labelled audio clips with ChatGPT-generated captions from FreeSound, BBC Sound Effects, and AudioSet. Academic use only. [Docs](https://github.com/XinhaoMei/WavCaps)
@@ -65,6 +68,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 > Large-scale web, code, and document corpora used to pretrain multimodal models.
 
 - **[Dolma](https://github.com/allenai/dolma)** – AI2's 3T-token open pretraining corpus with a transparent pipeline. Backbone for OLMo training.
+- **[BigDocs-7.5M](https://huggingface.co/datasets/ServiceNow/BigDocs-7.5M)** – 7.5M permissively licensed document image-text pairs from ServiceNow. Covers OCR, structured parsing, captioning, and QA across scientific papers, tables, and UI screenshots. ICLR 2025. CC-BY-4.0. [Docs](https://bigdocs.github.io/)
 - **[Common Corpus](https://huggingface.co/blog/Pclanglais/common-corpus)** – 2T-token fully open text corpus from PleIAs. Public-domain and permissive text only — usable for commercial training. [Docs](https://huggingface.co/collections/PleIAs/common-corpus-65d46e3ea3980fdcd66a5613)
 - **[DCLM-Baseline](https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0)** – 4T-token filtered web corpus from 240T-token Common Crawl pool. Trains 7B models to 64% MMLU at 2.6T tokens. NeurIPS 2024. [Docs](https://github.com/mlfoundations/dclm)
 - **[FineWeb / FineWeb-Edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb)** – 15T high-quality English tokens filtered from 96 Common Crawl dumps. Edu variant is ~1.3T educational-content tokens. [Docs](https://huggingface.co/blog/fineweb)
@@ -103,6 +107,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[OpenCLIP](https://github.com/mlfoundations/open_clip)** – Open-source reproduction of CLIP with many trained checkpoints (including SigLIP and EVA-CLIP variants). SDK: Python (pip install open-clip-torch)
 - **[BGE (BAAI General Embedding)](https://github.com/FlagOpen/FlagEmbedding)** – Family of multilingual text embeddings from BAAI. Top performers on MTEB; extended to visual and multimodal variants.
 - **[Nomic Embed](https://www.nomic.ai/embed)** – Open multimodal embedding family from Nomic. Nomic Embed Vision pairs with Nomic Embed Text for unified image/text search. [Docs](https://docs.nomic.ai)
+- **[MMEB-train](https://huggingface.co/datasets/TIGER-Lab/MMEB-train)** – 2.1M training samples for the Massive Multimodal Embedding Benchmark. Covers visual QA, image retrieval, classification, and grounding across 20 datasets. Apache-2.0.
 - **[SigLIP 2](https://huggingface.co/collections/google/siglip2-67b5dcef38c175486e240107)** – Google's sigmoid loss for contrastive image-text pretraining. SigLIP 2 adds multilingual and dense-caption training. [Docs](https://github.com/google-research/big_vision)
 - **[VLM2Vec](https://github.com/TIGER-AI-Lab/VLM2Vec)** – Framework for training VLMs as dense embedding models. Ships MMEB-V2 benchmark with 78 tasks across images, videos, and visual documents. [Docs](https://tiger-ai-lab.github.io/VLM2Vec/) | SDK: Python
 
