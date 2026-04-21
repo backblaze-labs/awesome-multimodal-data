@@ -112,6 +112,25 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: LLaVA-OneVision-Data
+  url: https://huggingface.co/datasets/lmms-lab/LLaVA-OneVision-Data
+  docs_url: https://llava-vl.github.io/blog/2024-08-05-llava-onevision/
+  description: 3.9M multimodal instruction-tuning samples across 89 subsets (VQA, OCR, math reasoning, captioning). Training data for the LLaVA-OneVision model family. Apache-2.0.
+  category: image-text-datasets
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: TextAtlas5M
+  url: https://huggingface.co/datasets/CSU-JPG/TextAtlas5M
+  docs_url: https://github.com/CSU-JPG/TextAtlas
+  description: 5.4M image-text pairs for dense text image generation, spanning synthetic and real-world text-rich images (slides, book covers, papers, styled text). Benchmark included. MIT.
+  category: image-text-datasets
+  github: CSU-JPG/TextAtlas
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Video Datasets ----------------
 
 - name: Ego4D
@@ -549,6 +568,17 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-18
+
+- name: jina-embeddings-v4
+  url: https://huggingface.co/jinaai/jina-embeddings-v4
+  docs_url: https://jina.ai/news/jina-embeddings-v4-universal-embeddings-for-multimodal-multilingual-retrieval/
+  description: 3.8B-parameter multimodal embedding model for text, images, and visual documents (charts, tables). Supports dense and late-interaction retrieval across 30+ languages. Non-commercial (Qwen Research License).
+  category: embedding-and-indexing-models
+  github: jina-ai/jina-embeddings-v4-gguf
+  sdks:
+    - {language: Python (pip install transformers)}
+  b2_integration: ""
+  last_verified: 2026-04-21
 
 # ---------------- Templates and Example Projects ----------------
 
