@@ -33,11 +33,14 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[COYO-700M](https://github.com/kakaobrain/coyo-dataset)** – 747M curated image-alt-text pairs from Kakao Brain. Alternative to LAION for pretraining multimodal models.
 - **[DataComp](https://www.datacomp.ai)** – Benchmark and toolkit for building image-text datasets. DataComp-1B is the reference filtered training set. [Docs](https://github.com/mlfoundations/datacomp)
 - **[Conceptual Captions 12M](https://github.com/google-research-datasets/conceptual-12m)** – 12M image-text pairs from Google, harvested from alt-text with automated cleaning. Widely used as a CLIP baseline.
+- **[BLIP3-KALE](https://huggingface.co/datasets/Salesforce/blip3-kale)** – 218M image-text pairs with knowledge-augmented dense captions from Salesforce. Bridges synthetic caption quality and web-scale alt-text factuality. Apache-2.0. [Docs](https://arxiv.org/abs/2411.07461)
 - **[Cambrian-10M](https://huggingface.co/datasets/nyu-visionx/Cambrian-10M)** – 10M multimodal instruction-tuning samples from NYU VisionX. Combines VQA, OCR, knowledge-based, and GPT-generated data. Backbone for Cambrian-1 VLM training. Apache-2.0. [Docs](https://cambrian-mllm.github.io/)
 - **[LAION-5B](https://laion.ai/blog/laion-5b/)** – 5.85B image-text pairs scraped from Common Crawl. Foundation dataset for Stable Diffusion and many open CLIP models. [Docs](https://huggingface.co/datasets/laion/laion2B-en)
 - **[Nemotron-VLM-Dataset-v2](https://huggingface.co/datasets/nvidia/Nemotron-VLM-Dataset-v2)** – NVIDIA's 8M-sample VLM training set spanning image QA, OCR (10 languages), video QA, and chain-of-thought reasoning. Used to train Nemotron Nano 2 VL. CC-BY-4.0. [Docs](https://huggingface.co/blog/nvidia/nemotron-vlm-dataset-v2)
 - **[OBELICS](https://huggingface.co/datasets/HuggingFaceM4/OBELICS)** – 141M interleaved image-text web documents, 353M images, 115B tokens, extracted from Common Crawl. Training data for IDEFICS. CC-BY-4.0. [Docs](https://github.com/huggingface/OBELICS)
+- **[OmniCorpus](https://huggingface.co/collections/OpenGVLab/omnicorpus)** – 8.6B images interleaved with 1.7T text tokens from Common Crawl, Chinese web, and YouTube. Unified multimodal pretraining corpus. ICLR 2025 Spotlight. CC-BY-4.0. [Docs](https://github.com/OpenGVLab/OmniCorpus)
 - **[PixelProse / Docmatix](https://huggingface.co/datasets/HuggingFaceM4/Docmatix)** – Large-scale document-image instruction dataset from HuggingFace. Useful for training multimodal document-QA models.
+- **[PixMo-Cap](https://huggingface.co/datasets/allenai/pixmo-cap)** – 717K dense image captions averaging ~200 words, recorded by human annotators and transcribed via LLM. Pretraining data for the Molmo VLM family. ODC-BY-1.0. [Docs](https://molmo.allenai.org/blog)
 - **[ReCap-DataComp-1B](https://huggingface.co/datasets/UCSC-VLAA/Recap-DataComp-1B)** – 1.3B DataComp-1B images recaptioned with LLaVA-1.5-LLaMA3-8B. Longer, more detailed captions improve CLIP and text-to-image training. ICML 2025. [Docs](https://github.com/UCSC-VLAA/Recap-DataComp-1B)
 
 ## Video Datasets
@@ -51,6 +54,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[InternVid](https://huggingface.co/datasets/OpenGVLab/InternVid)** – 7M videos (~234M clips) with rich captions. Part of the InternVideo foundation-model release. [Docs](https://github.com/OpenGVLab/InternVideo)
 - **[OpenVid-1M](https://huggingface.co/datasets/nkp37/OpenVid-1M)** – 1M curated text-video pairs with aesthetic/motion/consistency scores. Includes OpenVidHD-0.4M subset at 1080p. ICLR 2025. [Docs](https://github.com/NJU-PCALab/OpenVid-1M)
 - **[PE-Video](https://huggingface.co/datasets/facebook/PE-Video)** – Meta's 1M diverse short videos with text descriptions and 120K human-verified captions. Released with Perception Encoder (2025). CC BY NC 4.0. [Docs](https://github.com/facebookresearch/perception_models)
+- **[VideoUFO](https://huggingface.co/datasets/WenhaoWang/VideoUFO)** – 1.09M Creative Commons video clips paired with brief and detailed captions, covering 1,291 user-focused topics derived from real text-to-video prompts. NeurIPS 2025. CC-BY-4.0. [Docs](https://arxiv.org/abs/2503.01739)
 
 ## Audio and Speech Datasets
 
@@ -95,6 +99,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Datatrove](https://github.com/huggingface/datatrove)** – HuggingFace's data-processing library for LLM pretraining. Parallel filters, deduplication, tokenization pipelines. SDK: Python (pip install datatrove)
 - **[fastdup](https://www.visual-layer.com)** – Unsupervised analysis of large visual datasets. Detects duplicates, outliers, mislabels, and leakage in minutes. [Docs](https://github.com/visual-layer/fastdup) | SDK: Python (pip install fastdup)
 - **[Cosmos-Curate](https://github.com/nvidia-cosmos/cosmos-curate)** – NVIDIA's distributed video curation pipeline for world foundation model training. Splits, annotates, filters, and deduplicates video at scale using Ray. Apache-2.0.
+- **[Data-Juicer](https://github.com/modelscope/data-juicer)** – Composable data-processing toolkit with 200+ operators spanning text, image, audio, and video. Scales from a laptop to 1000-node Ray clusters. NeurIPS 2025 Spotlight. Apache-2.0. [Docs](https://github.com/modelscope/data-juicer/blob/main/docs/Operators.md) | SDK: Python (pip install py-data-juicer)
 - **[NeMo Curator](https://github.com/NVIDIA-NeMo/Curator)** – GPU-accelerated curation toolkit from NVIDIA. Handles text, image, video, and audio at scale using RAPIDS and Ray. Apache-2.0. [Docs](https://docs.nvidia.com/nemo-framework/user-guide/latest/datacuration/index.html) | SDK: Python (pip install nemo-curator)
 - **[SemHash](https://github.com/MinishLab/semhash)** – Lightweight multimodal library for semantic deduplication, outlier filtering, and representative sample selection across text, images, and audio. SDK: Python (pip install semhash)
 

@@ -83,6 +83,35 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: BLIP3-KALE
+  url: https://huggingface.co/datasets/Salesforce/blip3-kale
+  docs_url: https://arxiv.org/abs/2411.07461
+  description: 218M image-text pairs with knowledge-augmented dense captions from Salesforce. Bridges synthetic caption quality and web-scale alt-text factuality. Apache-2.0.
+  category: image-text-datasets
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: OmniCorpus
+  url: https://huggingface.co/collections/OpenGVLab/omnicorpus
+  docs_url: https://github.com/OpenGVLab/OmniCorpus
+  description: 8.6B images interleaved with 1.7T text tokens from Common Crawl, Chinese web, and YouTube. Unified multimodal pretraining corpus. ICLR 2025 Spotlight. CC-BY-4.0.
+  category: image-text-datasets
+  github: OpenGVLab/OmniCorpus
+  license: CC-BY-4.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: PixMo-Cap
+  url: https://huggingface.co/datasets/allenai/pixmo-cap
+  docs_url: https://molmo.allenai.org/blog
+  description: 717K dense image captions averaging ~200 words, recorded by human annotators and transcribed via LLM. Pretraining data for the Molmo VLM family. ODC-BY-1.0.
+  category: image-text-datasets
+  github: allenai/molmo
+  license: ODC-BY-1.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Video Datasets ----------------
 
 - name: Ego4D
@@ -146,6 +175,15 @@
   license: CC-BY-NC-4.0
   b2_integration: ""
   last_verified: 2026-04-18
+
+- name: VideoUFO
+  url: https://huggingface.co/datasets/WenhaoWang/VideoUFO
+  docs_url: https://arxiv.org/abs/2503.01739
+  description: 1.09M Creative Commons video clips paired with brief and detailed captions, covering 1,291 user-focused topics derived from real text-to-video prompts. NeurIPS 2025. CC-BY-4.0.
+  category: video-datasets
+  license: CC-BY-4.0
+  b2_integration: ""
+  last_verified: 2026-04-21
 
 # ---------------- Audio and Speech Datasets ----------------
 
@@ -406,6 +444,18 @@
     - {language: Python (pip install nemo-curator)}
   b2_integration: ""
   last_verified: 2026-04-18
+
+- name: Data-Juicer
+  url: https://github.com/modelscope/data-juicer
+  docs_url: https://github.com/modelscope/data-juicer/blob/main/docs/Operators.md
+  description: Composable data-processing toolkit with 200+ operators spanning text, image, audio, and video. Scales from a laptop to 1000-node Ray clusters. NeurIPS 2025 Spotlight. Apache-2.0.
+  category: data-curation-and-labeling
+  github: modelscope/data-juicer
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install py-data-juicer)}
+  b2_integration: ""
+  last_verified: 2026-04-21
 
 - name: Cosmos-Curate
   url: https://github.com/nvidia-cosmos/cosmos-curate
