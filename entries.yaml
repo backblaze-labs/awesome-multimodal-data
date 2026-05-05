@@ -131,6 +131,16 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: PangeaInstruct
+  url: https://huggingface.co/datasets/neulab/PangeaInstruct
+  docs_url: https://github.com/neulab/Pangea
+  description: 6.45M multilingual multimodal instruction-tuning samples spanning 39 languages and 29 source datasets. Covers VQA, OCR, captioning, and cultural tasks. Training data for the Pangea-7B MLLM. Apache-2.0.
+  category: image-text-datasets
+  github: neulab/Pangea
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Video Datasets ----------------
 
 - name: Ego4D
@@ -204,6 +214,16 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: ViMix-14M
+  url: https://huggingface.co/datasets/TimingYang/ViMix-14M
+  docs_url: https://arxiv.org/abs/2511.18382
+  description: 14M crawl-free, download-ready video-text pairs from merged open sources, with multi-granularity captions (brief, finer, detailed). Validated on retrieval, text-to-video generation, and VQA tasks. Apache-2.0.
+  category: video-datasets
+  github: ""
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Audio and Speech Datasets ----------------
 
 - name: LibriSpeech
@@ -256,6 +276,16 @@
   license: CC-BY-NC-4.0
   b2_integration: ""
   last_verified: 2026-04-18
+
+- name: DAVE
+  url: https://huggingface.co/datasets/gorjanradevski/dave
+  docs_url: https://github.com/gorjanradevski/dave
+  description: Diagnostic benchmark for audio-visual evaluation with 2,426 samples from EPIC-KITCHENS and Ego4D. Requires both modalities to answer; covers 7 task types including temporal ordering and audio-visual alignment. NeurIPS 2025. MIT.
+  category: audio-and-speech-datasets
+  github: gorjanradevski/dave
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-05-04
 
 # ---------------- Document and Text Datasets ----------------
 
@@ -485,6 +515,18 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Docling
+  url: https://github.com/docling-project/docling
+  docs_url: https://docling-project.github.io/docling/
+  description: Document-to-AI-format conversion pipeline supporting PDF, DOCX, PPTX, images, and audio. Extracts layout, tables, charts, and text into Markdown/JSON for multimodal training pipelines. MIT.
+  category: data-curation-and-labeling
+  github: docling-project/docling
+  license: MIT
+  sdks:
+    - {language: Python (pip install docling)}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Embedding and Indexing Models ----------------
 
 - name: OpenCLIP
@@ -579,6 +621,15 @@
     - {language: Python (pip install transformers)}
   b2_integration: ""
   last_verified: 2026-04-21
+
+- name: vdr-multilingual-train
+  url: https://huggingface.co/datasets/llamaindex/vdr-multilingual-train
+  docs_url: https://huggingface.co/blog/vdr-2b-multilingual
+  description: 500K multilingual query-image pairs collected from public internet PDFs with VLM-generated queries. Training set for visual document retrieval models; spans English, German, French, Spanish, and Italian. Apache-2.0.
+  category: embedding-and-indexing-models
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
 
 # ---------------- Templates and Example Projects ----------------
 
