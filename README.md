@@ -89,6 +89,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Common Corpus](https://huggingface.co/blog/Pclanglais/common-corpus)** – 2T-token fully open text corpus from PleIAs. Public-domain and permissive text only — usable for commercial training. [Docs](https://huggingface.co/collections/PleIAs/common-corpus-65d46e3ea3980fdcd66a5613)
 - **[DCLM-Baseline](https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0)** – 4T-token filtered web corpus from 240T-token Common Crawl pool. Trains 7B models to 64% MMLU at 2.6T tokens. NeurIPS 2024. [Docs](https://github.com/mlfoundations/dclm)
 - **[FineWeb / FineWeb-Edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb)** – 15T high-quality English tokens filtered from 96 Common Crawl dumps. Edu variant is ~1.3T educational-content tokens. [Docs](https://huggingface.co/blog/fineweb)
+- **[PDFA-eng-wds](https://huggingface.co/datasets/pixparse/pdfa-eng-wds)** – 18M English PDF pages (~9.7B tokens) in WebDataset shards with per-word bounding boxes, line-level OCR, and embedded-image annotations. Pretraining corpus for OCR-free document VLMs; used by IDEFICS2. Common Crawl terms. [Docs](https://github.com/huggingface/pixparse)
 - **[The Stack v2](https://huggingface.co/datasets/bigcode/the-stack-v2)** – 3TB of permissively licensed source code across 600+ programming languages. Training data for StarCoder/StarCoder2. [Docs](https://huggingface.co/blog/bigcode-the-stack)
 
 ## Data Loading and Streaming

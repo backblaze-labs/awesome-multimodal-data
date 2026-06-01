@@ -418,6 +418,15 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: PDFA-eng-wds
+  url: https://huggingface.co/datasets/pixparse/pdfa-eng-wds
+  docs_url: https://github.com/huggingface/pixparse
+  description: 18M English PDF pages (~9.7B tokens) in WebDataset shards with per-word bounding boxes, line-level OCR, and embedded-image annotations. Pretraining corpus for OCR-free document VLMs; used by IDEFICS2. Common Crawl terms.
+  category: document-and-text-datasets
+  github: huggingface/pixparse
+  b2_integration: ""
+  last_verified: 2026-06-01
+
 # ---------------- Data Loading and Streaming ----------------
 
 - name: WebDataset
