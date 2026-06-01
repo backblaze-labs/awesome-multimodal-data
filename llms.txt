@@ -8,6 +8,8 @@
 - [DataComp](https://www.datacomp.ai): Benchmark and toolkit for building image-text datasets. DataComp-1B is the reference filtered training set.
   - docs: https://github.com/mlfoundations/datacomp
 - [Conceptual Captions 12M](https://github.com/google-research-datasets/conceptual-12m): 12M image-text pairs from Google, harvested from alt-text with automated cleaning. Widely used as a CLIP baseline.
+- [Aria-UI Data](https://huggingface.co/datasets/Aria-UI/Aria-UI_Data): 4.2M GUI grounding instruction-image pairs across web (173K images), mobile (104K), and desktop (7.8K) interfaces. Covers versatile and context-aware element grounding for GUI agent training. Apache-2.0.
+  - docs: https://github.com/AriaUI/Aria-UI
 - [BLIP3-KALE](https://huggingface.co/datasets/Salesforce/blip3-kale): 218M image-text pairs with knowledge-augmented dense captions from Salesforce. Bridges synthetic caption quality and web-scale alt-text factuality. Apache-2.0.
   - docs: https://arxiv.org/abs/2411.07461
 - [Cambrian-10M](https://huggingface.co/datasets/nyu-visionx/Cambrian-10M): 10M multimodal instruction-tuning samples from NYU VisionX. Combines VQA, OCR, knowledge-based, and GPT-generated data. Backbone for Cambrian-1 VLM training. Apache-2.0.
@@ -18,6 +20,8 @@
   - docs: https://huggingface.co/datasets/laion/laion2B-en
 - [LLaVA-OneVision-Data](https://huggingface.co/datasets/lmms-lab/LLaVA-OneVision-Data): 3.9M multimodal instruction-tuning samples across 89 subsets (VQA, OCR, math reasoning, captioning). Training data for the LLaVA-OneVision model family. Apache-2.0.
   - docs: https://llava-vl.github.io/blog/2024-08-05-llava-onevision/
+- [Multimodal Textbook](https://huggingface.co/datasets/DAMO-NLP-SG/multimodal_textbook): 6.5M keyframes interleaved with 0.8B ASR/OCR tokens from 75K instructional videos (22K class hours). Knowledge-rich pretraining corpus covering math, physics, chemistry. ICCV 2025 Highlight. Apache-2.0.
+  - docs: https://github.com/DAMO-NLP-SG/multimodal_textbook
 - [Nemotron-VLM-Dataset-v2](https://huggingface.co/datasets/nvidia/Nemotron-VLM-Dataset-v2): NVIDIA's 8M-sample VLM training set spanning image QA, OCR (10 languages), video QA, and chain-of-thought reasoning. Used to train Nemotron Nano 2 VL. CC-BY-4.0.
   - docs: https://huggingface.co/blog/nvidia/nemotron-vlm-dataset-v2
 - [OBELICS](https://huggingface.co/datasets/HuggingFaceM4/OBELICS): 141M interleaved image-text web documents, 353M images, 115B tokens, extracted from Common Crawl. Training data for IDEFICS. CC-BY-4.0.
@@ -36,6 +40,8 @@
 - [TextAtlas5M](https://huggingface.co/datasets/CSU-JPG/TextAtlas5M): 5.4M image-text pairs for dense text image generation, spanning synthetic and real-world text-rich images (slides, book covers, papers, styled text). Benchmark included. MIT.
   - docs: https://github.com/CSU-JPG/TextAtlas
 - [The Cauldron](https://huggingface.co/datasets/HuggingFaceM4/the_cauldron): 50 curated vision-language datasets in a unified instruction-tuning format, covering VQA, OCR, chart/table reasoning, and screenshot-to-code. 7.8M QA pairs, 2.3M images. Training data for IDEFICS2 and SmolVLM. CC-BY-4.0 prompts.
+- [WAON](https://huggingface.co/datasets/llm-jp/WAON): 155M Japanese image-text pairs from Common Crawl, filtered with SigLIP scores and pHash deduplication. Largest Japanese VLM pretraining corpus; improves Japanese cultural benchmarks. Apache-2.0 (Japanese copyright law "information analysis" use).
+  - docs: https://github.com/llm-jp/WAON
 
 ## Video Datasets
 
@@ -71,6 +77,8 @@
 - [Emilia](https://huggingface.co/datasets/amphion/Emilia-Dataset): 100k+ hours of multilingual, in-the-wild speech data from the Amphion team. Backbone for modern open TTS training.
   - docs: https://github.com/open-mmlab/Amphion
 - [LibriSpeech](https://www.openslr.org/12): 1,000-hour English speech corpus derived from LibriVox. The long-running default ASR benchmark.
+- [MuAViC](https://github.com/facebookresearch/muavic): 1,200-hour multilingual audio-visual corpus from TED/TEDx talks in 9 languages with transcriptions and speech-to-text translation labels. First open benchmark for audio-visual speech translation. CC-BY-NC-4.0.
+  - docs: https://ai.meta.com/blog/muavic-audio-visual-speech-translation-benchmark/
 - [WavCaps](https://huggingface.co/datasets/cvssp/WavCaps): 400k weakly-labelled audio clips with ChatGPT-generated captions from FreeSound, BBC Sound Effects, and AudioSet. Academic use only.
   - docs: https://github.com/XinhaoMei/WavCaps
 

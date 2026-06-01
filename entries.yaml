@@ -168,6 +168,36 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: WAON
+  url: https://huggingface.co/datasets/llm-jp/WAON
+  docs_url: https://github.com/llm-jp/WAON
+  description: 155M Japanese image-text pairs from Common Crawl, filtered with SigLIP scores and pHash deduplication. Largest Japanese VLM pretraining corpus; improves Japanese cultural benchmarks. Apache-2.0 (Japanese copyright law "information analysis" use).
+  category: image-text-datasets
+  github: llm-jp/WAON
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-06-01
+
+- name: Multimodal Textbook
+  url: https://huggingface.co/datasets/DAMO-NLP-SG/multimodal_textbook
+  docs_url: https://github.com/DAMO-NLP-SG/multimodal_textbook
+  description: 6.5M keyframes interleaved with 0.8B ASR/OCR tokens from 75K instructional videos (22K class hours). Knowledge-rich pretraining corpus covering math, physics, chemistry. ICCV 2025 Highlight. Apache-2.0.
+  category: image-text-datasets
+  github: DAMO-NLP-SG/multimodal_textbook
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-06-01
+
+- name: Aria-UI Data
+  url: https://huggingface.co/datasets/Aria-UI/Aria-UI_Data
+  docs_url: https://github.com/AriaUI/Aria-UI
+  description: 4.2M GUI grounding instruction-image pairs across web (173K images), mobile (104K), and desktop (7.8K) interfaces. Covers versatile and context-aware element grounding for GUI agent training. Apache-2.0.
+  category: image-text-datasets
+  github: AriaUI/Aria-UI
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-06-01
+
 # ---------------- Video Datasets ----------------
 
 - name: Ego4D
@@ -323,6 +353,16 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-05-04
+
+- name: MuAViC
+  url: https://github.com/facebookresearch/muavic
+  docs_url: https://ai.meta.com/blog/muavic-audio-visual-speech-translation-benchmark/
+  description: 1,200-hour multilingual audio-visual corpus from TED/TEDx talks in 9 languages with transcriptions and speech-to-text translation labels. First open benchmark for audio-visual speech translation. CC-BY-NC-4.0.
+  category: audio-and-speech-datasets
+  github: facebookresearch/muavic
+  license: CC-BY-NC-4.0
+  b2_integration: ""
+  last_verified: 2026-06-01
 
 # ---------------- Document and Text Datasets ----------------
 
