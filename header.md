@@ -1,5 +1,7 @@
 # Awesome Multimodal Data [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
+![Abstract illustration of multimodal data systems](assets/readme-hero.png)
+
 A curated list of multimodal datasets and data tooling — image-text, video, audio, and document corpora, plus streaming, curation, labeling, and embedding libraries that operate on them.
 
 Maintained by [Backblaze](https://www.backblaze.com).
