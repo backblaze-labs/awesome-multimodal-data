@@ -200,6 +200,15 @@
 
 # ---------------- Video Datasets ----------------
 
+- name: MINT-1T
+  url: https://github.com/mlfoundations/MINT-1T
+  description: One-trillion-token multimodal interleaved corpus of HTML, PDF, and ArXiv documents, released as WebDataset shards on Hugging Face.
+  category: image-text-datasets
+  github: mlfoundations/MINT-1T
+  license: CC-BY-4.0
+  b2_integration: ""
+  last_verified: 2026-11-19
+
 - name: Ego4D
   url: https://ego4d-data.org
   docs_url: https://ego4d-data.org/docs/
@@ -489,6 +498,17 @@
 
 # ---------------- Data Curation and Labeling ----------------
 
+- name: LitData
+  url: https://github.com/Lightning-AI/litData
+  description: Optimize datasets into chunked shards and stream them from S3-compatible object storage into PyTorch training jobs.
+  category: data-loading-and-streaming
+  github: Lightning-AI/litData
+  license: Apache-2.0
+  sdks:
+    - {language: Python}
+  b2_integration: ""
+  last_verified: 2026-11-19
+
 - name: Datatrove
   url: https://github.com/huggingface/datatrove
   description: HuggingFace's data-processing library for LLM pretraining. Parallel filters, deduplication, tokenization pipelines.
@@ -615,6 +635,17 @@
 
 # ---------------- Embedding and Indexing Models ----------------
 
+- name: olmOCR
+  url: https://github.com/allenai/olmocr
+  description: Toolkit that converts PDFs and page images into clean text with a vision-language model, for building document training corpora.
+  category: data-curation-and-labeling
+  github: allenai/olmocr
+  license: Apache-2.0
+  sdks:
+    - {language: Python}
+  b2_integration: ""
+  last_verified: 2026-11-19
+
 - name: OpenCLIP
   url: https://github.com/mlfoundations/open_clip
   description: Open-source reproduction of CLIP with many trained checkpoints (including SigLIP and EVA-CLIP variants).
@@ -718,6 +749,17 @@
   last_verified: 2026-05-04
 
 # ---------------- Templates and Example Projects ----------------
+
+- name: ColPali
+  url: https://github.com/illuin-tech/colpali
+  description: Training and inference code for ColPali-family late-interaction models that embed document page images for visual retrieval.
+  category: embedding-and-indexing-models
+  github: illuin-tech/colpali
+  license: MIT
+  sdks:
+    - {language: Python}
+  b2_integration: ""
+  last_verified: 2026-11-19
 
 - name: DataComp Quickstart
   url: https://github.com/mlfoundations/datacomp#quickstart

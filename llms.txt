@@ -20,6 +20,7 @@
   - docs: https://huggingface.co/datasets/laion/laion2B-en
 - [LLaVA-OneVision-Data](https://huggingface.co/datasets/lmms-lab/LLaVA-OneVision-Data): 3.9M multimodal instruction-tuning samples across 89 subsets (VQA, OCR, math reasoning, captioning). Training data for the LLaVA-OneVision model family. Apache-2.0.
   - docs: https://llava-vl.github.io/blog/2024-08-05-llava-onevision/
+- [MINT-1T](https://github.com/mlfoundations/MINT-1T): One-trillion-token multimodal interleaved corpus of HTML, PDF, and ArXiv documents, released as WebDataset shards on Hugging Face.
 - [Multimodal Textbook](https://huggingface.co/datasets/DAMO-NLP-SG/multimodal_textbook): 6.5M keyframes interleaved with 0.8B ASR/OCR tokens from 75K instructional videos (22K class hours). Knowledge-rich pretraining corpus covering math, physics, chemistry. ICCV 2025 Highlight. Apache-2.0.
   - docs: https://github.com/DAMO-NLP-SG/multimodal_textbook
 - [Nemotron-VLM-Dataset-v2](https://huggingface.co/datasets/nvidia/Nemotron-VLM-Dataset-v2): NVIDIA's 8M-sample VLM training set spanning image QA, OCR (10 languages), video QA, and chain-of-thought reasoning. Used to train Nemotron Nano 2 VL. CC-BY-4.0.
@@ -108,6 +109,7 @@
   - docs: https://webdataset.github.io/webdataset/
 - [MosaicML Streaming](https://docs.mosaicml.com/projects/streaming/en/stable/): Deterministic, shuffled, resumable streaming of datasets from cloud storage. Shard format: MDS.
   - docs: https://github.com/mosaicml/streaming
+- [LitData](https://github.com/Lightning-AI/litData): Optimize datasets into chunked shards and stream them from S3-compatible object storage into PyTorch training jobs.
 - [Ray Data](https://docs.ray.io/en/latest/data/data.html): Distributed data loading and preprocessing inside Ray. Native connectors for Parquet on S3-compatible stores.
 
 ## Data Curation and Labeling
@@ -130,6 +132,7 @@
   - docs: https://docling-project.github.io/docling/
 - [NeMo Curator](https://github.com/NVIDIA-NeMo/Curator): GPU-accelerated curation toolkit from NVIDIA. Handles text, image, video, and audio at scale using RAPIDS and Ray. Apache-2.0.
   - docs: https://docs.nvidia.com/nemo-framework/user-guide/latest/datacuration/index.html
+- [olmOCR](https://github.com/allenai/olmocr): Toolkit that converts PDFs and page images into clean text with a vision-language model, for building document training corpora.
 - [SemHash](https://github.com/MinishLab/semhash): Lightweight multimodal library for semantic deduplication, outlier filtering, and representative sample selection across text, images, and audio.
 
 ## Embedding and Indexing Models
@@ -142,6 +145,7 @@
 - [BGE (BAAI General Embedding)](https://github.com/FlagOpen/FlagEmbedding): Family of multilingual text embeddings from BAAI. Top performers on MTEB; extended to visual and multimodal variants.
 - [Nomic Embed](https://www.nomic.ai/embed): Open multimodal embedding family from Nomic. Nomic Embed Vision pairs with Nomic Embed Text for unified image/text search.
   - docs: https://docs.nomic.ai
+- [ColPali](https://github.com/illuin-tech/colpali): Training and inference code for ColPali-family late-interaction models that embed document page images for visual retrieval.
 - [jina-embeddings-v4](https://huggingface.co/jinaai/jina-embeddings-v4): 3.8B-parameter multimodal embedding model for text, images, and visual documents (charts, tables). Supports dense and late-interaction retrieval across 30+ languages. Non-commercial (Qwen Research License).
   - docs: https://jina.ai/news/jina-embeddings-v4-universal-embeddings-for-multimodal-multilingual-retrieval/
 - [MMEB-train](https://huggingface.co/datasets/TIGER-Lab/MMEB-train): 2.1M training samples for the Massive Multimodal Embedding Benchmark. Covers visual QA, image retrieval, classification, and grounding across 20 datasets. Apache-2.0.
