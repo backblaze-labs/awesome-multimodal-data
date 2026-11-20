@@ -98,38 +98,38 @@ Maintained by [Backblaze](https://www.backblaze.com).
 
 > Formats and libraries for streaming multimodal data from object storage into training jobs.
 
-- **[HuggingFace Datasets](https://huggingface.co/docs/datasets)** – Unified loading, streaming, and processing of thousands of datasets. Native Arrow/Parquet with memory-mapped access. [Docs](https://github.com/huggingface/datasets) | SDK: Python (pip install datasets)
-- **[Lance](https://lancedb.github.io/lance/)** – Columnar format designed for ML. 100x faster random access than Parquet, versioned, zero-copy from object storage. [Docs](https://github.com/lancedb/lance) | SDK: Python (pip install pylance), Rust
-- **[WebDataset](https://github.com/webdataset/webdataset)** – PyTorch dataset format packaging samples as tar shards. Streams directly from S3-compatible object storage. [Docs](https://webdataset.github.io/webdataset/) | SDK: Python (pip install webdataset)
-- **[MosaicML Streaming](https://docs.mosaicml.com/projects/streaming/en/stable/)** – Deterministic, shuffled, resumable streaming of datasets from cloud storage. Shard format: MDS. [Docs](https://github.com/mosaicml/streaming) | SDK: Python (pip install mosaicml-streaming)
-- **[Ray Data](https://docs.ray.io/en/latest/data/data.html)** – Distributed data loading and preprocessing inside Ray. Native connectors for Parquet on S3-compatible stores. SDK: Python (pip install 'ray[data]')
+- **[HuggingFace Datasets](https://huggingface.co/docs/datasets)** – Unified loading, streaming, and processing of thousands of datasets. Native Arrow/Parquet with memory-mapped access. [Docs](https://github.com/huggingface/datasets) | SDK: Python
+- **[Lance](https://lancedb.github.io/lance/)** – Columnar format designed for ML. 100x faster random access than Parquet, versioned, zero-copy from object storage. [Docs](https://github.com/lancedb/lance) | SDK: Python, Rust
+- **[WebDataset](https://github.com/webdataset/webdataset)** – PyTorch dataset format packaging samples as tar shards. Streams directly from S3-compatible object storage. [Docs](https://webdataset.github.io/webdataset/) | SDK: Python
+- **[MosaicML Streaming](https://docs.mosaicml.com/projects/streaming/en/stable/)** – Deterministic, shuffled, resumable streaming of datasets from cloud storage. Shard format: MDS. [Docs](https://github.com/mosaicml/streaming) | SDK: Python
+- **[Ray Data](https://docs.ray.io/en/latest/data/data.html)** – Distributed data loading and preprocessing inside Ray. Native connectors for Parquet on S3-compatible stores. SDK: Python
 
 ## Data Curation and Labeling
 
 > Tools for deduplication, cleaning, filtering, and annotating multimodal datasets.
 
-- **[Label Studio](https://labelstud.io)** – Open-source labeling platform supporting text, image, audio, video, and time-series. [Docs](https://labelstud.io/guide/) | SDK: Python (pip install label-studio-sdk)
+- **[Label Studio](https://labelstud.io)** – Open-source labeling platform supporting text, image, audio, video, and time-series. [Docs](https://labelstud.io/guide/) | SDK: Python
 - **[CVAT](https://www.cvat.ai)** – Computer vision annotation tool with strong video and 3D support. Originally from Intel, now community-maintained. [Docs](https://docs.cvat.ai)
-- **[cleanlab](https://cleanlab.ai)** – Finds label errors, outliers, and dataset issues automatically with confident-learning methods. [Docs](https://docs.cleanlab.ai) | SDK: Python (pip install cleanlab)
-- **[FiftyOne](https://voxel51.com/fiftyone)** – Open-source dataset curation and model-evaluation toolkit for CV. Rich UI for exploring image/video datasets. [Docs](https://docs.voxel51.com) | SDK: Python (pip install fiftyone)
-- **[Datatrove](https://github.com/huggingface/datatrove)** – HuggingFace's data-processing library for LLM pretraining. Parallel filters, deduplication, tokenization pipelines. SDK: Python (pip install datatrove)
-- **[fastdup](https://www.visual-layer.com)** – Unsupervised analysis of large visual datasets. Detects duplicates, outliers, mislabels, and leakage in minutes. [Docs](https://github.com/visual-layer/fastdup) | SDK: Python (pip install fastdup)
+- **[cleanlab](https://cleanlab.ai)** – Finds label errors, outliers, and dataset issues automatically with confident-learning methods. [Docs](https://docs.cleanlab.ai) | SDK: Python
+- **[FiftyOne](https://voxel51.com/fiftyone)** – Open-source dataset curation and model-evaluation toolkit for CV. Rich UI for exploring image/video datasets. [Docs](https://docs.voxel51.com) | SDK: Python
+- **[Datatrove](https://github.com/huggingface/datatrove)** – HuggingFace's data-processing library for LLM pretraining. Parallel filters, deduplication, tokenization pipelines. SDK: Python
+- **[fastdup](https://www.visual-layer.com)** – Unsupervised analysis of large visual datasets. Detects duplicates, outliers, mislabels, and leakage in minutes. [Docs](https://github.com/visual-layer/fastdup) | SDK: Python
 - **[Cosmos-Curate](https://github.com/nvidia-cosmos/cosmos-curate)** – NVIDIA's distributed video curation pipeline for world foundation model training. Splits, annotates, filters, and deduplicates video at scale using Ray. Apache-2.0.
-- **[Data-Juicer](https://github.com/modelscope/data-juicer)** – Composable data-processing toolkit with 200+ operators spanning text, image, audio, and video. Scales from a laptop to 1000-node Ray clusters. NeurIPS 2025 Spotlight. Apache-2.0. [Docs](https://github.com/modelscope/data-juicer/blob/main/docs/Operators.md) | SDK: Python (pip install py-data-juicer)
-- **[Docling](https://github.com/docling-project/docling)** – Document-to-AI-format conversion pipeline supporting PDF, DOCX, PPTX, images, and audio. Extracts layout, tables, charts, and text into Markdown/JSON for multimodal training pipelines. MIT. [Docs](https://docling-project.github.io/docling/) | SDK: Python (pip install docling)
-- **[NeMo Curator](https://github.com/NVIDIA-NeMo/Curator)** – GPU-accelerated curation toolkit from NVIDIA. Handles text, image, video, and audio at scale using RAPIDS and Ray. Apache-2.0. [Docs](https://docs.nvidia.com/nemo-framework/user-guide/latest/datacuration/index.html) | SDK: Python (pip install nemo-curator)
-- **[SemHash](https://github.com/MinishLab/semhash)** – Lightweight multimodal library for semantic deduplication, outlier filtering, and representative sample selection across text, images, and audio. SDK: Python (pip install semhash)
+- **[Data-Juicer](https://github.com/modelscope/data-juicer)** – Composable data-processing toolkit with 200+ operators spanning text, image, audio, and video. Scales from a laptop to 1000-node Ray clusters. NeurIPS 2025 Spotlight. Apache-2.0. [Docs](https://github.com/modelscope/data-juicer/blob/main/docs/Operators.md) | SDK: Python
+- **[Docling](https://github.com/docling-project/docling)** – Document-to-AI-format conversion pipeline supporting PDF, DOCX, PPTX, images, and audio. Extracts layout, tables, charts, and text into Markdown/JSON for multimodal training pipelines. MIT. [Docs](https://docling-project.github.io/docling/) | SDK: Python
+- **[NeMo Curator](https://github.com/NVIDIA-NeMo/Curator)** – GPU-accelerated curation toolkit from NVIDIA. Handles text, image, video, and audio at scale using RAPIDS and Ray. Apache-2.0. [Docs](https://docs.nvidia.com/nemo-framework/user-guide/latest/datacuration/index.html) | SDK: Python
+- **[SemHash](https://github.com/MinishLab/semhash)** – Lightweight multimodal library for semantic deduplication, outlier filtering, and representative sample selection across text, images, and audio. SDK: Python
 
 ## Embedding and Indexing Models
 
 > Multimodal embedding models and frameworks for building searchable indices.
 
-- **[FAISS](https://github.com/facebookresearch/faiss)** – Meta's library for efficient similarity search of dense vectors. The reference ANN library for research-scale indexing. [Docs](https://faiss.ai) | SDK: Python (pip install faiss-cpu), C++
-- **[sentence-transformers](https://www.sbert.net)** – PyTorch framework for training and using dense embedding models. De-facto library for semantic search. [Docs](https://github.com/UKPLab/sentence-transformers) | SDK: Python (pip install sentence-transformers)
-- **[OpenCLIP](https://github.com/mlfoundations/open_clip)** – Open-source reproduction of CLIP with many trained checkpoints (including SigLIP and EVA-CLIP variants). SDK: Python (pip install open-clip-torch)
+- **[FAISS](https://github.com/facebookresearch/faiss)** – Meta's library for efficient similarity search of dense vectors. The reference ANN library for research-scale indexing. [Docs](https://faiss.ai) | SDK: Python, C++
+- **[sentence-transformers](https://www.sbert.net)** – PyTorch framework for training and using dense embedding models. De-facto library for semantic search. [Docs](https://github.com/UKPLab/sentence-transformers) | SDK: Python
+- **[OpenCLIP](https://github.com/mlfoundations/open_clip)** – Open-source reproduction of CLIP with many trained checkpoints (including SigLIP and EVA-CLIP variants). SDK: Python
 - **[BGE (BAAI General Embedding)](https://github.com/FlagOpen/FlagEmbedding)** – Family of multilingual text embeddings from BAAI. Top performers on MTEB; extended to visual and multimodal variants.
 - **[Nomic Embed](https://www.nomic.ai/embed)** – Open multimodal embedding family from Nomic. Nomic Embed Vision pairs with Nomic Embed Text for unified image/text search. [Docs](https://docs.nomic.ai)
-- **[jina-embeddings-v4](https://huggingface.co/jinaai/jina-embeddings-v4)** – 3.8B-parameter multimodal embedding model for text, images, and visual documents (charts, tables). Supports dense and late-interaction retrieval across 30+ languages. Non-commercial (Qwen Research License). [Docs](https://jina.ai/news/jina-embeddings-v4-universal-embeddings-for-multimodal-multilingual-retrieval/) | SDK: Python (pip install transformers)
+- **[jina-embeddings-v4](https://huggingface.co/jinaai/jina-embeddings-v4)** – 3.8B-parameter multimodal embedding model for text, images, and visual documents (charts, tables). Supports dense and late-interaction retrieval across 30+ languages. Non-commercial (Qwen Research License). [Docs](https://jina.ai/news/jina-embeddings-v4-universal-embeddings-for-multimodal-multilingual-retrieval/) | SDK: Python
 - **[MMEB-train](https://huggingface.co/datasets/TIGER-Lab/MMEB-train)** – 2.1M training samples for the Massive Multimodal Embedding Benchmark. Covers visual QA, image retrieval, classification, and grounding across 20 datasets. Apache-2.0.
 - **[SigLIP 2](https://huggingface.co/collections/google/siglip2-67b5dcef38c175486e240107)** – Google's sigmoid loss for contrastive image-text pretraining. SigLIP 2 adds multilingual and dense-caption training. [Docs](https://github.com/google-research/big_vision)
 - **[vdr-multilingual-train](https://huggingface.co/datasets/llamaindex/vdr-multilingual-train)** – 500K multilingual query-image pairs collected from public internet PDFs with VLM-generated queries. Training set for visual document retrieval models; spans English, German, French, Spanish, and Italian. Apache-2.0. [Docs](https://huggingface.co/blog/vdr-2b-multilingual)
@@ -139,7 +139,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 
 > Reference implementations, demos, and starter projects.
 
-- **[img2dataset](https://github.com/rom1504/img2dataset)** – Fast, resumable tool to turn image-URL lists into WebDataset shards. Routinely used to download LAION-scale datasets. SDK: Python (pip install img2dataset)
+- **[img2dataset](https://github.com/rom1504/img2dataset)** – Fast, resumable tool to turn image-URL lists into WebDataset shards. Routinely used to download LAION-scale datasets. SDK: Python
 - **[video2dataset](https://github.com/iejMac/video2dataset)** – Download, trim, and package large video datasets into WebDataset shards.
 - **[DataComp Quickstart](https://github.com/mlfoundations/datacomp#quickstart)** – Reference workflow for downloading, filtering, and training on DataComp. Good starting point for custom filters.
 
