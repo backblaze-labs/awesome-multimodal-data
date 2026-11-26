@@ -613,6 +613,14 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: Autelica Capture QA API
+  url: https://app.autelica.com/check/docs/api
+  docs_url: https://app.autelica.com/check/docs/openapi.yaml
+  description: REST API that filters multi-camera video sessions second by second, recovering sync offsets between cameras and marking each second usable or unusable with a reason code (blur, exposure, camera motion, sync).
+  category: data-curation-and-labeling
+  b2_integration: ""
+  last_verified: 2026-11-26
+
 # ---------------- Embedding and Indexing Models ----------------
 
 - name: OpenCLIP
